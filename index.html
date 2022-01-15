@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html>
 
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jonathan Fascetti Portfolio</title>
+    <script type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="portStyle.css">
+    <script src="portScript.js"></script>
+</head>
+
+<body class="page-body">
+    <div id="fade" class="black_overlay"></div>
+    <div id="footer" class="footer">
+        <p style="font-size:15px;">Last updated Jan. 2022, <a href="javascript:void(0)"
+                onclick="document.getElementById('contact-window').style.display='block';document.getElementById('fade').style.display='block'">contact</a>
+        </p>
+    </div>
+    <div id="contact-window" class="white_content">
+        <p>Jonathan Fascetti</p>
+        <p>jlfascetti@gmail.com</p>
+        <p>Cell: 781-521-2015</p>
+
+
+
+        <p>
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('contact-window').style.display='none';document.getElementById('fade').style.display='none'">
+                Close
+            </a>
+        </p>
+    </div>
+
+    <div id="needs-proj-info" class="white_content">
+        <p>
+            As part of the course Introduction to Biomedical Engineering in the Fall of 2021, I worked with a small
+            group of peers to practice needs finding by discovering a solution gap that exists. Our group explored a
+            kidney disease patient's perspective and designed and proposed a solution for a way to perform effective
+            interim dialysis during their recovery from invasive preparatory surgeries. We proposed that electric
+            stimulation can be directed toward veins which could increase blood flow sufficiently to perform dialysis.
+            We used current research to defend our solution as well as principals we learned through the course like
+            Poiseuille's law. Throughout the project we had to iterate and engineer various possible solutions to arrive
+            at one that we all were happy with. I not only learned a lot about preparatory methods for dialysis but also
+            how to work with a group of peers to generate ideas and organize a poster in an effective way.
+        </p>
+        <div style="text-align:center;">
+            <img src="images/needs-prog.png" alt="Needs Research Project Poster">
+        </div>
+        <p style="float:right;">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('needs-proj-info').style.display='none';document.getElementById('fade').style.display='none'">
+                Close
+            </a>
+        </p>
+    </div>
+
+    <div id="dna-proj-info" class="white_content">
+        <p>
+            In the spring of 2020, I worked on a project with a peer in a class where we research DNA alignment methods.
+            In the begging of the project, we started with learning the basics of the chemistry of DNA, the relevance of
+            mutations, and how it affects the production and effectivity of proteins. Most of the work we did was in a
+            learning-by-discovery style, where a problem was proposed to us, and we worked together to design a
+            solution. We exercised our programming skills and got more familiar with the concepts by doing smaller tasks
+            like identifying start codons from DNA and producing an amino acid code chain until an end codon. Later, we
+            researched current literature of using computational methods to align DNA sequences to identify protein
+            sequences and practiced the methods. One of the biggest challenges we faced in designing and putting these
+            methods to use was how to account for mutations when identifying a sequence of DNA (as you want to flag
+            sequences that are close enough to a reference one, but the changes are also inevitable). I learned a lot
+            both about the chemistry of DNA and mutations as well as advanced computation methods for sequence alignment
+            and I particularly enjoyed being able to take what I had learned in computer programming, chemistry classes,
+            and biology classes to engineer solutions and problem solve with my peer.
+            <br><br>
+            The sample of code linked below translates a DNA sequeces from a .FASTA file into the corresponding peptide
+            sequence. The program finds the length of the peptide, finds stop codon locations, finds double bases and
+            their locations, and outputs the found information to a new .FASTA file.
+
+        </p>
+        <br>
+        <div style="text-align:center;">
+            <a href="code-sample.txt" target="_blank">
+                Check out the code sample.
+            </a>
+        </div>
+
+        <p style="float:right;">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('dna-proj-info').style.display='none';document.getElementById('fade').style.display='none'">
+                Close
+            </a>
+        </p>
+    </div>
+
+
+
+
+
+    <div id="body">
+        <div id="headder" class="headder">
+            <div id="title" class="title">
+                <p class="title-words">
+                    Jonathan Fascetti's Portfolio
+                </p>
+            </div>
+        </div>
+
+
+        <div id="projects" class="projects-wrapper">
+            <h1>
+                Works
+            </h1>
+
+            <div id="proj-row1" class="proj-row">
+                <div id="proj-row1.1" class="proj-body proj-left">
+                    <p class="projs">
+                        <a href="javascript:void(0)"
+                            onclick="document.getElementById('needs-proj-info').style.display='block';document.getElementById('fade').style.display='block'">
+                            Biomedical Engineering "Needs Research Project" Poster
+                        </a>
+                    </p>
+                    <div style="text-align:center;">
+                        <img src="images/needs-prog.png" alt="Needs Research Project Poster">
+                    </div>
+                </div>
+                <div id="proj-row1.2" class="proj-body proj-right">
+                    <p class="projs">
+                        <a href="javascript:void(0)"
+                            onclick="document.getElementById('dna-proj-info').style.display='block';document.getElementById('fade').style.display='block'">
+                            Python Project: DNA Alignment
+                        </a>
+
+                        <!--<div style="text-align:center;">
+                        <img src="images/needs-prog.png" alt="Needs Research Project Poster">
+                    </div>-->
+
+                    </p>
+                </div>
+            </div>
+            <div id="proj-row1" class="proj-row">
+                <div id="proj-row1.1" class="proj-body proj-left">
+                    <p class="projs">Title</p>
+                </div>
+                <div id="proj-row1.2" class="proj-body proj-right">
+                    <p class="projs">Title</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+
+</html>
