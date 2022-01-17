@@ -19,13 +19,27 @@
         </p>
     </div>
     <div id="contact-window" class="white_content">
-        <p>Jonathan Fascetti</p>
-        <p>jlfascetti@gmail.com</p>
-        <p>Cell: 781-521-2015</p>
+        <div id="name_and_contact_info" style="text-align:center;margin-top:12%;">
+            <p>Jonathan Fascetti</p>
+            <p>fascetti.j@wustl.edu</p>
+            <p>Cell: 781-521-2015</p>
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/jonathanfascetti/" target="_blank">
+                    https://www.linkedin.com/in/jonathanfascetti/
+                </a>
+            </p>
+            <p>
+                <a href="images/resume.pdf" target="_blank">
+                    Resume
+                </a>
+            </p>
+        </div>
 
 
 
-        <p>
+
+        <p style="float:right;">
             <a href="javascript:void(0)"
                 onclick="document.getElementById('contact-window').style.display='none';document.getElementById('fade').style.display='none'">
                 Close
@@ -231,6 +245,47 @@
         </p>
     </div>
 
+    <div id="microbiome-info" class="white_content">
+        <p>
+            As an independent study in the beginning of my senior year of high school, I investigated microbiomes, their
+            analysis techniques, and their potential applications. In this study, I extensively researched the relevant
+            scientific methods and biological systems of microbiomes and their implication onto human health. I then
+            synthesized my research and developed a website designed to teach people about the importance of microbiomes
+            and the potential impact they have on human medicine. Throughout the project, I really enjoyed having the
+            freedom to seemingly endlessly dig deeper and deeper into a field of science, especially since a lot of the
+            literature I was reading was very current. I then was faced with taking all of the information I had
+            collected and translating it into a readable form for someone who was not as familiar with the field as I
+            am.
+        </p>
+        <br>
+
+
+
+        <p style="float:right;">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('microbiome-info').style.display='none';document.getElementById('fade').style.display='none'">
+                Close
+            </a>
+        </p>
+    </div>
+
+    <!--POP UP WINDOW TEMPLATE-->
+    <div id="NAME-info" class="white_content">
+        <p>
+            TEXT BODY
+        </p>
+        <br>
+
+
+
+        <p style="float:right;">
+            <a href="javascript:void(0)"
+                onclick="document.getElementById('NAME-info').style.display='none';document.getElementById('fade').style.display='none'">
+                Close
+            </a>
+        </p>
+    </div>
+
 
 
 
@@ -318,9 +373,13 @@
             </div>
 
             <div id="proj-row1" class="proj-row">
-                <div id="proj-row1.1" class="proj-body proj-left">
+                <div id="proj-row1.1" class="proj-body proj-left" style="border:none;">
                     <p>
-                        Empty
+                        <!--Right now, this does not show up on the site, if I want to add more to the site, I can remove the " style="border:none;" " line from above, and create a new pop-up window with information -->
+                        <!--<a href="javascript:void(0)"
+                            onclick="document.getElementById('NAME-info').style.display='block';document.getElementById('fade').style.display='block'">
+                            CLICKABLE TITLE
+                        </a>-->
                     </p>
                 </div>
                 <div id="proj-row1.2" class="proj-body proj-right">
@@ -334,14 +393,21 @@
                 </div>
             </div>
             <div id="proj-row1" class="proj-row">
-                <div id="proj-row1.1" class="proj-body proj-left">
+                <div id="proj-row1.1" class="proj-body proj-left" style="border:none;">
                     <p>
-                        Empty
+                        <!--Right now, this does not show up on the site, if I want to add more to the site, I can remove the " style="border:none;" " line from above, and create a new pop-up window with information -->
+                        <!--<a href="javascript:void(0)"
+                            onclick="document.getElementById('NAME-info').style.display='block';document.getElementById('fade').style.display='block'">
+                            CLICKABLE TITLE
+                        </a>-->
                     </p>
                 </div>
                 <div id="proj-row1.2" class="proj-body proj-right">
                     <p class="projs">
-                        Microbiomes
+                        <a href="javascript:void(0)"
+                            onclick="document.getElementById('microbiome-info').style.display='block';document.getElementById('fade').style.display='block'">
+                            Microbiomes
+                        </a>
                     </p>
 
                 </div>
