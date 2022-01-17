@@ -1,11 +1,11 @@
 
 
 h1 {
-    font-family:monospace;
+    font-family:Didot, serif;
 }
 
 p {
-    font-family:monospace;
+    font-family:Didot, serif;
 }
 
 .footer {
@@ -53,7 +53,7 @@ p {
 }
 
 .headder {
-    border-bottom:dashed;
+    /*border-bottom:dashed;*/å
     
 }
 
@@ -63,7 +63,7 @@ p {
 
 .title-words {
     text-align:center;
-    font-family:monospace;
+    font-family:Didot, serif;
     font-size:37px;
 }
 
@@ -71,7 +71,7 @@ p {
     height:600px; /*fix this */
     padding-left:2%;
     padding-right:2%;
-    border-bottom:dashed;
+    
 }
 
 .proj-row {
@@ -92,26 +92,12 @@ p {
 
 .proj-right {
     border-style:ridge;
-    /*border-color:blue;*/
     margin-left:50%;
 }
 
 .projs {
     text-align:center;
-    font-family:monospace;
-    font-size:35px;
-}
-
-img {
-    width:80%;
-    height:auto;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.projs {
-    text-align:center;
-    font-family:monospace;
+    font-family:Didot, serif;
     font-size:35px;
 }
 
