@@ -3,6 +3,10 @@
 h1 {
     font-family:Didot, serif;
 }
+h2 {
+    font-family:Didot, serif;
+    font-weight:normal;
+}
 
 p {
     font-family:Didot, serif;
@@ -64,7 +68,7 @@ p {
 .title-words {
     text-align:center;
     font-family:Didot, serif;
-    font-size:37px;
+    font-size:50px;
 }
 
 .projects-wrapper {
